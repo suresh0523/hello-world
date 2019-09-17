@@ -21,13 +21,13 @@
     <module>webapp</module>
   </modules>
 
-  <distributionManagement>
-    <site>
-      <id>site-server</id>
-      <name>Test Project Site</name>
-      <url>file:///tmp/maven-project-site</url>
-    </site>
-  </distributionManagement>
+ 		  <distributionManagement>
+  <snapshotRepository>
+    <id>nexus</id>
+    <url>http://13.126.142.28:8081/nexus/content/repositories/nexus/</url>
+	 
+  </snapshotRepository>
+</distributionManagement>
 
   <build>
     <plugins>
