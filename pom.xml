@@ -22,12 +22,14 @@
   </modules>
 
  		  <distributionManagement>
-  <snapshotRepository>
+ <site>
     <id>nexus</id>
+	 <name>Test Project Site</name>
     <url>http://13.126.142.28:8081/nexus/content/repositories/nexus/</url>
 	 
-  </snapshotRepository>
+     </site>
 </distributionManagement>
+
 
   <build>
     <plugins>
